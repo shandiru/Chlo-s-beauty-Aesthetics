@@ -1,0 +1,64 @@
+:root {
+  --color-primary: #DC6B82; /* Rose Pink – main brand accent */
+  --color-secondary: #FAD9E3; /* Soft Blush Pink – highlight tone */
+  --color-accent-dark: #2C2C2C; /* Deep Charcoal – text/body */
+  --color-accent-light: #FFFFFF; /* White – background/highlight */
+  --color-skin-tone: #4C6A40; /* Leaf Green – natural accent */
+  --color-ring: rgba(236, 156, 181, 0.5); /* Pink glow focus ring */
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.text-primary-hover:hover {
+  color: var(--color-primary) !important;
+}
+
+/* Background Colors */
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.bg-accent-dark {
+  background-color: var(--color-accent-dark) !important;
+}
+
+.bg-accent-light {
+  background-color: var(--color-accent-light) !important;
+}
+
+/* Hover Effects */
+.bg-primary-hover:hover {
+  background-color: var(--color-primary) !important;
+}
+
+.bg-secondary-hover:hover {
+  background-color: var(--color-secondary) !important;
+}
+
+/* Borders */
+.border-primary {
+  border: 2px solid var(--color-primary) !important;
+}
+
+.border-primary-hover:hover {
+  border: 2px solid var(--color-primary) !important;
+}
+
+/* Icons / SVG Fills */
+.fill-primary {
+  fill: var(--color-primary) !important;
+}
+
+/* Focus Ring */
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--color-ring);
+  border-radius: 0.375rem; /* optional: matches Tailwind rounded-md */
+}
