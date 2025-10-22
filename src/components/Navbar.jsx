@@ -38,7 +38,7 @@ export default function Header() {
           </div>
           <div className="flex items-center space-x-1">
             <Mail className="h-4 w-4 text-[#6C6C6C]" />
-            <span>allaesthetics1@outlook.com</span>
+            <span>chloetrow@hotmail.com</span>
           </div>
 
           <button className="bg-primary text-white rounded-md px-5 py-2 text-sm font-medium shadow-[0_2px_4px_rgba(0,0,0,0.05)] border border-[#E8E2DD] bg-secondary-hover transition-all duration-200">

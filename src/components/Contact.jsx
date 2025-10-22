@@ -87,7 +87,7 @@ export default function ContactSection() {
                   <Mail className="w-5 h-5 text-primary" />
                   <div>
                     <p className="font-medium text-[#222]">Email</p>
-                    <p className="text-[#666]">allaesthetics1@outlook.com</p>
+                    <p className="text-[#666]">chloetrow@hotmail.com</p>
                   </div>
                 </div>
 
